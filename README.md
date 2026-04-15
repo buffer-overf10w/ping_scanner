@@ -63,13 +63,6 @@ Example:
 
 
 ---
-
-## 📥 domains.txt
-example.com
-google.com
-chatgpt.com
-github.com
----
 🧱 Tech Stack
 Python 3.9+
 asyncio
@@ -78,6 +71,5 @@ ipaddress
 tqdm
 ---
 📜 License
-
 MIT License
 ---
