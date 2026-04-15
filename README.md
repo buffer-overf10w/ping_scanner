@@ -31,7 +31,6 @@ This tool is intended for:
 ---
 
 
----
 
 ## ⚙️ Configuration
 
