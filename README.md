@@ -13,6 +13,7 @@ Security analysis in authorized environments
 
 🚫 Do NOT use this tool against systems you do not own or have explicit permission to test.
 
+
 🚀 Features
 ⚡ Fully asynchronous scanning (high performance)
 🌍 CIDR-based IP range detection (Cloudflare networks)
@@ -23,6 +24,8 @@ Security analysis in authorized environments
 💾 Streaming output (safe for millions of domains)
 🔁 Easily extendable architecture
 📁 Project Structure
+
+
 project/
 │
 ├── scanner.py          # Main script
@@ -30,6 +33,8 @@ project/
 ├── ranges.txt          # Cloudflare CIDR ranges
 ├── settings.txt        # Runtime configuration
 └── results.txt         # Output file (generated)
+
+
 ⚙️ Configuration
 📌 settings.txt
 CONCURRENCY=500
@@ -37,6 +42,8 @@ PING_TIMEOUT=1000
 Parameter	Description
 CONCURRENCY	Number of async workers
 PING_TIMEOUT	Ping timeout in milliseconds
+
+
 📌 ranges.txt
 
 Contains Cloudflare IPv4 CIDR blocks:
