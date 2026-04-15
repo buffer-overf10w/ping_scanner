@@ -69,7 +69,20 @@ example.com
 google.com
 chatgpt.com
 github.com
-
+---
+🧱 Tech Stack
+Python 3.9+
+asyncio
+socket
+ipaddress
+tqdm
+---
+⚠️ Limitations
+ICMP may be blocked by some servers
+Cloudflare uses shared anycast IPs
+DNS results depend on local resolver
+Not a full website availability checker
+---
 📜 License
 
 MIT License
